@@ -74,10 +74,10 @@ export const App = () => {
           <ul className={css.asideList}>
             <li className={css.asideItem}>HTML5</li>
             <li className={css.asideItem}>CSS3</li>
-            <li className={css.asideItem}>Adaptive design</li>
-            <li className={css.asideItem}>GIT</li>
             <li className={css.asideItem}>JavaScript</li>
             <li className={css.asideItem}>React</li>
+            <li className={css.asideItem}>Adaptive design</li>
+            <li className={css.asideItem}>GIT</li>
           </ul>
         </div>
 
@@ -120,13 +120,23 @@ export const App = () => {
             {projects.map(project => (
               <li className={css.projectItem} key={project.name}>
                 <ul className={css.projectInfoList}>
-                  <li className={`${css.projectInfoItem} ${css.accentItem}`}>
-                    <a className={css.projectLink} href={project.page}>{project.name}</a>
+                  <li
+                    className={`${css.projectInfoItem} ${css.projectAccentItem}`}
+                  >
+                    <a className={css.projectLink} href={project.page}>
+                      {project.name}
+                    </a>
                   </li>
-                  <li className={`${css.projectInfoItem} ${css.accentItem}`}>
-                    <a className={css.projectLink} href={project.repository}>GitHub</a>
+                  <li
+                    className={`${css.projectInfoItem} ${css.projectAccentItem}`}
+                  >
+                    <a className={css.projectLink} href={project.repository}>
+                      GitHub
+                    </a>
                   </li>
-                  <li className={`${css.projectInfoItem} ${css.accentItem}`}>
+                  <li
+                    className={`${css.projectInfoItem} ${css.projectAccentItem}`}
+                  >
                     <p>{project.technologies}</p>
                   </li>
                 </ul>
@@ -136,12 +146,17 @@ export const App = () => {
                   <li className={css.projectInfoItem}>{project.date}</li>
                 </ul>
                 <p className={css.projectAnnotation}>{project.annotation}</p>
-                <h5>Features</h5>
-                <p>{project.features.join(', ')}</p>
-                <h5>My Role</h5>
+                <h5 className={css.projectInfoTitle}>Features</h5>
+                <p className={css.projectFeatures}>
+                  {project.features.join(', ')}
+                </p>
+                <h5 className={css.projectInfoTitle}>My Role</h5>
                 {project.myRole.map(({ roleName, roleDescription }) => (
-                  <p key={roleName + project.name}>
-                    <span>{roleName}: </span>
+                  <p
+                    className={css.roleDescription}
+                    key={roleName + project.name}
+                  >
+                    <span className={css.roleName}>{roleName}: </span>
                     {roleDescription}
                   </p>
                 ))}
