@@ -135,8 +135,7 @@ export const App = () => {
                 <svg>
                   <use href={`${sprite}#linkedin-icon`}></use>
                 </svg>
-              </a>
-              {/* LinkedIn */}
+              </a>             
             </li>
           </ul>
         </div>
