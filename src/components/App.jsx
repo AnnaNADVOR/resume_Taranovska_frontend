@@ -57,7 +57,7 @@ export const App = () => {
 
         {/* --- education --- */}
         <div className={css.educationSection}>
-          <h3 className={css.Title}>Education</h3>
+          <h3 className={css.title}>Education</h3>
           <ul className={css.asideList}>
             <li className={css.asideItem}>
               <h4 className={css.educationTitle}>IT School CoIT</h4>
@@ -78,7 +78,7 @@ export const App = () => {
 
         {/* --- Tech skills --- */}
         <div className={css.asideSection}>
-          <h4 className={`${css.Title} ${css.WhiteTitle}`}>Tech skils</h4>
+          <h4 className={`${css.title} ${css.WhiteTitle}`}>Tech skils</h4>
           <ul className={css.asideList}>
             <li className={css.asideItem}>HTML5</li>
             <li className={css.asideItem}>CSS3</li>
@@ -91,7 +91,7 @@ export const App = () => {
 
         {/* --- Soft skills --- */}
         <div className={css.asideSection}>
-          <h4 className={`${css.Title} ${css.WhiteTitle}`}>Soft skils</h4>
+          <h4 className={`${css.title} ${css.WhiteTitle}`}>Soft skils</h4>
           <ul className={css.asideList}>
             <li className={css.asideItem}>Attentive</li>
             <li className={css.asideItem}>Responsible</li>
@@ -102,7 +102,7 @@ export const App = () => {
 
         {/* --- Languages --- */}
         <div className={css.asideSection}>
-          <h4 className={`${css.Title} ${css.WhiteTitle}`}>Languages</h4>
+          <h4 className={`${css.title} ${css.WhiteTitle}`}>Languages</h4>
           <ul className={css.asideList}>
             <li className={css.asideItem}>English - Intermediate</li>
             <li className={css.asideItem}>Ukrainian - Native</li>
@@ -122,7 +122,7 @@ export const App = () => {
           </p>
         </div>
         <div className={css.projectSection}>
-          <h3 className={css.Title}>Project experience</h3>
+          <h3 className={css.title}>Project experience</h3>
 
           <ul className={css.projectList}>
             {projects.map(project => (

@@ -2,14 +2,13 @@
   display: flex;
   margin: 0 auto;
   width: 1200px;
-
   -webkit-box-shadow: -13px 1px 52px -18px rgba(0, 0, 0, 0.71);
   -moz-box-shadow: -13px 1px 52px -18px rgba(0, 0, 0, 0.71);
   box-shadow: -13px 1px 52px -18px rgba(0, 0, 0, 0.71);
 }
 
 .aside {
-  width: 30%;
+  width: 40%;
   padding: 40px 0;
   background-color: var(--main-background);
   color: var(--primary-white);
@@ -17,12 +16,16 @@
   border-bottom-right-radius: 60px;
 }
 
+.mainContent {
+  width: 60%;
+}
+
 .photoThumb {
   width: 300px;
   height: 300px;
   border-radius: 50%;
+  border: 4px solid var(--secondary-background);
   margin: 0 auto;
-  border: 1px solid var(--secondary-background);
 }
 
 .photo {
@@ -32,7 +35,7 @@
   object-fit: cover;
 }
 
-.Title {
+.title {
   text-transform: uppercase;
   padding-bottom: 10px;
   border-bottom: 1.5px solid var(--main-background);
@@ -43,7 +46,7 @@
 }
 
 .asideSection {
-  padding: 50px 30px;
+  padding: 50px 40px;
 }
 
 .asideList {
@@ -64,10 +67,6 @@
 
 .educationTitle {
   margin-bottom: 5px;
-}
-
-.mainContent {
-  width: 70%;
 }
 
 .profile {
@@ -91,7 +90,7 @@
 
 .projectItem {
   &:not(:last-child) {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
   }
 }
 
@@ -163,5 +162,5 @@
 }
 
 .contactLink {
-    color: var(--link-color)
+  color: var(--link-color);
 }
