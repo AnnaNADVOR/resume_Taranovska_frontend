@@ -22,12 +22,12 @@ export const projects = [
       {
         roleName: 'Team Lead',
         roleDescription:
-          'consulting the team, monitoring work, accepting pool requests, configuring the repository, connecting fonts, routing, working with endpoints.',
+          'consulting the team; monitoring work; accepting pool requests; configuring the repository; connecting fonts; routing; working with endpoints.',
       },
       {
         roleName: 'Front-end Developer',
         roleDescription:
-          'working with forms for creating/editing cards with tasks, using Formik and Yup, filtering tasks, moving tasks between columns, working with the React Date Picker library',
+          'working with forms for creating/editing cards with tasks; using Formik and Yup; filtering tasks; moving tasks between columns; working with the React Date Picker library.'
       },
     ],
   },
@@ -45,7 +45,8 @@ export const projects = [
     myRole: [
       {
         roleName: 'Front-end Developer',
-        roleDescription: '',
+        roleDescription:
+          'development of the application according to the technical task; configuring routing with the React Router library; working with contact collection (adding, deleting, filtering), registration, login and user update with JWT using Redux; styling with Emotion library.',
       },
     ],
   },
@@ -71,12 +72,12 @@ export const projects = [
       {
         roleName: 'Scrum Master',
         roleDescription:
-          'allocation of tasks, filling the Trello board, organizing daily meetings, control of task deadlines, helping with code',
+          'allocation of tasks; filling the Trello board; organizing daily meetings; control of task deadlines; helping with code.',
       },
       {
         roleName: 'Front-end Developer',
         roleDescription:
-          'developing the Favorites page, working with the tui-pagination library, using Local Storage to getting/deleting selected favorite exercises and to getting quote of the day',
+          'developing the Favorites page; working with the tui-pagination library; using Local Storage to getting/deleting selected favorite exercises and to getting quote of the day.',
       },
     ],
   },
