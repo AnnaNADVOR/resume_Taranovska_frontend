@@ -27,7 +27,7 @@ export const projects = [
       {
         roleName: 'Front-end Developer',
         roleDescription:
-          'working with forms for creating/editing cards with tasks; using Formik and Yup; filtering tasks; moving tasks between columns; working with the React Date Picker library.'
+          'working with forms for creating/editing cards with tasks; using Formik and Yup; filtering tasks; moving tasks between columns; working with the React Date Picker library.',
       },
     ],
   },

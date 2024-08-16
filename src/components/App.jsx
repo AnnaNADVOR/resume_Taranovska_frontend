@@ -115,7 +115,7 @@ export const App = () => {
           <ul className={css.socialLinkList}>
             <li className={css.socialLinkItem}>
               <a
-                className={`${css.contactLink} ${css.socialLink}`}
+                className={css.socialLink}
                 href="https://github.com/AnnaNADVOR"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -127,7 +127,7 @@ export const App = () => {
             </li>
             <li className={css.socialLinkItem}>
               <a
-                className={`${css.contactLink} ${css.socialLink}`}
+                className={css.socialLink}
                 href="https://www.linkedin.com/in/anna-taranovska/"
                 target="_blank"
                 rel="noopener noreferrer"
