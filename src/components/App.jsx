@@ -16,6 +16,7 @@ export const App = () => {
           <ul>
             <li className={css.asideItem}>
               <a
+                className={css.contactLink}
                 href="tel:+380964977473"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -24,10 +25,16 @@ export const App = () => {
               </a>
             </li>
             <li className={css.asideItem}>
-              <a className={css.contactLink} href="mailto:anjanadvorna@gmail.com">anjanadvorna@gmail.com</a>
+              <a
+                className={css.contactLink}
+                href="mailto:anjanadvorna@gmail.com"
+              >
+                anjanadvorna@gmail.com
+              </a>
             </li>
             <li className={css.asideItem}>
               <a
+                className={css.contactLink}
                 href="https://github.com/AnnaNADVOR"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -37,6 +44,7 @@ export const App = () => {
             </li>
             <li className={css.asideItem}>
               <a
+                className={css.contactLink}
                 href="https://www.linkedin.com/in/anna-taranovska/"
                 target="_blank"
                 rel="noopener noreferrer"
