@@ -24,7 +24,7 @@ export const App = () => {
               </a>
             </li>
             <li className={css.asideItem}>
-              <a href="mailto:anjanadvorna@gmail.com">anjanadvorna@gmail.com</a>
+              <a className={css.contactLink} href="mailto:anjanadvorna@gmail.com">anjanadvorna@gmail.com</a>
             </li>
             <li className={css.asideItem}>
               <a
@@ -123,14 +123,24 @@ export const App = () => {
                   <li
                     className={`${css.projectInfoItem} ${css.projectAccentItem}`}
                   >
-                    <a className={css.projectLink} href={project.page}>
+                    <a
+                      className={css.projectLink}
+                      href={project.page}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       {project.name}
                     </a>
                   </li>
                   <li
                     className={`${css.projectInfoItem} ${css.projectAccentItem}`}
                   >
-                    <a className={css.projectLink} href={project.repository}>
+                    <a
+                      className={css.projectLink}
+                      href={project.repository}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       GitHub
                     </a>
                   </li>

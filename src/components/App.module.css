@@ -161,3 +161,7 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+.contactLink {
+    color: var(--link-color)
+}
