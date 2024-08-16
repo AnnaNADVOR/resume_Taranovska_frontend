@@ -78,7 +78,7 @@ export const App = () => {
 
         {/* --- Tech skills --- */}
         <div className={css.asideSection}>
-          <h4 className={`${css.title} ${css.WhiteTitle}`}>Tech skils</h4>
+          <h4 className={`${css.title} ${css.WhiteTitle}`}>Tech skills</h4>
           <ul className={css.asideList}>
             <li className={css.asideItem}>HTML5</li>
             <li className={css.asideItem}>CSS3</li>
@@ -91,7 +91,7 @@ export const App = () => {
 
         {/* --- Soft skills --- */}
         <div className={css.asideSection}>
-          <h4 className={`${css.title} ${css.WhiteTitle}`}>Soft skils</h4>
+          <h4 className={`${css.title} ${css.WhiteTitle}`}>Soft skills</h4>
           <ul className={css.asideList}>
             <li className={css.asideItem}>Attentive</li>
             <li className={css.asideItem}>Responsible</li>
