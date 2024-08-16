@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/resume_taranovska_frontend/static/css/main.774e819e.css",
-    "main.js": "/resume_taranovska_frontend/static/js/main.2738fc2f.js",
+    "main.css": "/resume_taranovska_frontend/static/css/main.48191ea2.css",
+    "main.js": "/resume_taranovska_frontend/static/js/main.991c0619.js",
     "static/media/photo.jpg": "/resume_taranovska_frontend/static/media/photo.f5f31f691f7bef80b71f.jpg",
+    "static/media/sprite.svg": "/resume_taranovska_frontend/static/media/sprite.856a6e9bf057a5f2494e7a1fcb96d52c.svg",
     "index.html": "/resume_taranovska_frontend/index.html",
-    "main.774e819e.css.map": "/resume_taranovska_frontend/static/css/main.774e819e.css.map",
-    "main.2738fc2f.js.map": "/resume_taranovska_frontend/static/js/main.2738fc2f.js.map"
+    "main.48191ea2.css.map": "/resume_taranovska_frontend/static/css/main.48191ea2.css.map",
+    "main.991c0619.js.map": "/resume_taranovska_frontend/static/js/main.991c0619.js.map"
   },
   "entrypoints": [
-    "static/css/main.774e819e.css",
-    "static/js/main.2738fc2f.js"
+    "static/css/main.48191ea2.css",
+    "static/js/main.991c0619.js"
   ]
 }
